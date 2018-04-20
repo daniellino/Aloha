@@ -85,8 +85,8 @@ body {
     height: 120px;
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
-    background: rgb(114, 111, 109);
+    flex-grow: 0;
+    background: rgb(226, 200, 200);
 }
 
 h1,
@@ -99,18 +99,18 @@ h3 {
 .logo img {
     width: 200px;
     height: auto;
-    padding: 0.8rem;
+    padding: 0.5rem;
 }
 
 .main-menu-nav {
     margin-top: 50px;
-    flex-shrink: 1;
+    flex-shrink: 0;
     font-family: Raleway, sans-serif;
 }
 
 .main-menu-nav li {
     display: inline;
-    padding: .7rem;
+    padding: .5rem;
 }
 
 .shopping-basket {
@@ -118,7 +118,8 @@ h3 {
     padding: 0.5rem;
 }
 
-.main-menu-nav a {
+h3,
+a {
     color: #e2574c;
 }
 
@@ -144,14 +145,72 @@ h3 {
 
 /* =======================================Product Categories==================================== */
 
+.heavy {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.product-price,
+.product-type {
+    color: #969696;
+    font-weight: 500;
+    font-size: .75rem;
+    margin-bottom: .75rem;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+}
+
+.product-categories img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .product-categories {
     display: flex;
     flex-flow: row wrap;
 }
 
-.product-list {
-    display: flex;
+.item {
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    height: 25vw;
+    /* padding: .2rem; */
+    /* border: 1px solid #000; */
+    justify-content: center;
+    align-items: center;
+}
+
+.item:first-child {
+    background: coral;
+    flex-basis: 50%;
+}
+
+.item:last-child {
+    background: coral;
+    flex-basis: 50%;
+}
+
+.product-wrapper {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .item {
+        flex-basis: 25%;
+    }
+    .item:first-child {
+        background: #87ceeb;
+    }
+    .item:last-child {
+        background: #87ceeb;
+    }
 }
 
 
 /* =======================================Product Categories End==================================== */
+
+.website-footer {
+    background: #242424;
+}
