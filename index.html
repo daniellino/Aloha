@@ -6,9 +6,11 @@
     <meta txt="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main stylesheet.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <!-- Flickity CSS-->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/main stylesheet.css">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Flickity script -->
@@ -25,24 +27,28 @@
 <body>
     <header class="website-header">
         <div class="logo"><img src="images/aloha-logo.svg" alt="aloha logo"></div>
+        <div class="shopping-basket"><img class="basket-img" src="images/cart-icon.svg" alt="cart icon"></div>
         <nav class="main-menu-nav">
             <ul>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">SHOP</a></li>
-                <li><a href="#">FEATURE</a></li>
+                <li><a href="#">FEATURED</a></li>
                 <li><a href="#">UPDATES</a></li>
             </ul>
         </nav>
-        <div class="shopping-basket"><img src="images/cart-icon.svg" alt="cart icon"></div>
+
     </header>
+
     <!-- =========================================End of Header======================================= -->
     <!-- =========================================Banner section======================================= -->
     <section class="banner-container">
-        <div class="gradiant-layer"></div>
-        <p class="new-collection">NEW COLLECTION</p>
-        <p class="summer 2018">Spring/Summer 2018</p>
-        <div class="girl-pic"><img src="images/banner-girl.png" alt="girl picture"></div>
-        <div class="flower-background"> <img src="images/flower-bkgd.jpg" alt="background"></div>
+        <div class="text-center-banner">
+            <p class="new-collection">NEW COLLECTION</p>
+            <p class="summer-2018">Spring/Summer 2018</p>
+        </div>
+
+        <!-- <div class="girl-pic"><img src="images/banner-girl.png" alt="girl picture"></div> -->
+        <!-- <div class="flower-background"> <img src="images/flower-bkgd.jpg" alt="background"></div> -->
     </section>
     <!-- =========================================End of Banner======================================= -->
     <!-- =========================================About section======================================= -->
@@ -57,27 +63,21 @@
     <section class="all-products">
         <div class="product-categories">
             <div class="mens-category">
-                <img class="big-pictue-product item" src="images/mens-category.jpg" alt="mens-category">
                 <span class="category-txt"><a href="#">Men's</a></span>
             </div>
             <div class="trends-category item">
-                <img class="small-picture-product" src="images/trends-category.jpg" alt="trends-category">
                 <span class="category-txt"><a href="#">Trends</a></span>
             </div>
             <div class="glasses-category item">
-                <img class="small-picture-product" src="images/glasses-category.jpg" alt="glasses-category">
                 <span class="category-txt"><a href="#">Glasses</a></span>
             </div>
             <div class="sale-category item">
-                <img class="small-picture-product" src="images/sale-category.jpg" alt="sale-category">
                 <span class="category-txt"><a href="#">Sale</a></span>
             </div>
             <div class="bags-category item">
-                <img class="small-picture-product" src="images/bags-category.jpg" alt="bags-category">
                 <span class="category-txt"><a href="#">Bags</a></span>
             </div>
             <div class="womens-category item">
-                <img class="big-pictue-product" src="images/womens-category.jpg" alt="womens-category">
                 <span class="category-txt"><a href="#">Women's</a></span>
             </div>
         </div>
@@ -151,9 +151,9 @@
         <div class="sign-up-box">
             <h2>Sign-up for <span class="big-size">Updates</span></h2>
             <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-            <div><img src="images/wave-bkgd.jpg" alt="wave background"></div>
+            <!-- <div><img src="images/wave-bkgd.jpg" alt="wave background"></div> -->
             <!-- =========================================Form section======================================= -->
-            <form class="sign-up-form">
+            <form class="sign-up-form" id="sign-up-form">
                 <input type="email" name="your_email" id="your-email" value="" placeholder="Your Email">
                 <input type="submit" name="subscribe" value="Subscribe" id="subscribe">
             </form>
@@ -181,11 +181,11 @@
             </div>
             <!-- =========================================social links======================================= -->
             <ul class="social">
-                <li><a href="#"><i class="fa fa-facebook"></i> <span class="network-name">Facebook</span></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i> <span class="network-name">Twitter</span></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i> <span class="network-name">Instagram</span></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i> <span class="network-name">Pinterest</span></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i> <span class="network-name">Google+</span></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i> <span class="network-name">Facebook</span></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> <span class="network-name">Twitter</span></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> <span class="network-name">Instagram</span></a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i> <span class="network-name">Pinterest</span></a></li>
+                <li><a href="#"><i class="fab fa-google-plus"></i> <span class="network-name">Google+</span></a></li>
             </ul>
         </div>
     </footer>
