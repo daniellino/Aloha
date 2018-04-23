@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- By: Daniel Haamidi -->
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <!-- Flickity CSS-->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="css/main stylesheet.css">
+    <link rel="stylesheet" href="css/main-stylesheet.css">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Flickity script -->
@@ -30,10 +31,10 @@
         <div class="shopping-basket"><img class="basket-img" src="images/cart-icon.svg" alt="cart icon"></div>
         <nav class="main-menu-nav">
             <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">FEATURED</a></li>
-                <li><a href="#">UPDATES</a></li>
+                <li><a href="#site-about">ABOUT</a></li>
+                <li><a href="#all-products">SHOP</a></li>
+                <li><a href="#loved-products">FEATURED</a></li>
+                <li><a href="#updates-news">UPDATES</a></li>
             </ul>
         </nav>
 
@@ -46,38 +47,35 @@
             <p class="new-collection">NEW COLLECTION</p>
             <p class="summer-2018">Spring/Summer 2018</p>
         </div>
-
-        <!-- <div class="girl-pic"><img src="images/banner-girl.png" alt="girl picture"></div> -->
-        <!-- <div class="flower-background"> <img src="images/flower-bkgd.jpg" alt="background"></div> -->
     </section>
     <!-- =========================================End of Banner======================================= -->
     <!-- =========================================About section======================================= -->
-    <section class="site-about">
+    <section class="site-about" id="site-about">
         <div class="about-content">
-            <h2>Hand-Crafted <span class="heavy">Styles</span></h2>
+            <h2>Hand-Crafted <span class="big-size">Styles</span></h2>
             <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
         </div>
     </section>
     <!-- =========================================End of About======================================= -->
     <!-- =========================================Products section======================================= -->
-    <section class="all-products">
+    <section class="all-products" id="all-products">
         <div class="product-categories">
             <div class="mens-category">
-                <span class="category-txt"><a href="#">Men's</a></span>
+                <span class="category-txt "><a href="#">Men's</a></span>
             </div>
-            <div class="trends-category item">
+            <div class="trends-category">
                 <span class="category-txt"><a href="#">Trends</a></span>
             </div>
-            <div class="glasses-category item">
+            <div class="glasses-category">
                 <span class="category-txt"><a href="#">Glasses</a></span>
             </div>
-            <div class="sale-category item">
+            <div class="sale-category">
                 <span class="category-txt"><a href="#">Sale</a></span>
             </div>
-            <div class="bags-category item">
+            <div class="bags-category">
                 <span class="category-txt"><a href="#">Bags</a></span>
             </div>
-            <div class="womens-category item">
+            <div class="womens-category">
                 <span class="category-txt"><a href="#">Women's</a></span>
             </div>
         </div>
@@ -85,10 +83,10 @@
     </section>
     <!-- =========================================End of Product======================================= -->
     <!-- =========================================Loved product section======================================= -->
-    <section class="loved-products-carousel">
+    <section class="loved-products-carousel" id="loved-products">
 
         <div class="products-all">
-            <h2>Most-Loved <span class="heavy">Products</span></h2>
+            <h2>Most-Loved <span class="big-size">Products</span></h2>
             <div class="product-list">
 
                 <div class="main-carousel">
@@ -147,13 +145,12 @@
     </section>
     <!-- =========================================End of Loved product======================================= -->
     <!-- =========================================Updates section======================================= -->
-    <section class="updates-news">
+    <section class="updates-news" id="updates-news">
         <div class="sign-up-box">
             <h2>Sign-up for <span class="big-size">Updates</span></h2>
             <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-            <!-- <div><img src="images/wave-bkgd.jpg" alt="wave background"></div> -->
             <!-- =========================================Form section======================================= -->
-            <form class="sign-up-form" id="sign-up-form">
+            <form class="sign-up-form">
                 <input type="email" name="your_email" id="your-email" value="" placeholder="Your Email">
                 <input type="submit" name="subscribe" value="Subscribe" id="subscribe">
             </form>
@@ -163,10 +160,10 @@
     <!-- =========================================End of Updates======================================= -->
     <!-- =========================================footer======================================= -->
     <footer class="website-footer">
-        <div class="container">
+        <div class="footer-container">
             <div class="colophon">
                 <div class="copyright">
-                    <p>&copy; 2017 Aloha Apparel Co.</p>
+                    <p>&copy;2017 Aloha Apparel Co.</p>
                     <p>Powered by HTML and CSS.</p>
                 </div>
 
@@ -181,7 +178,7 @@
             </div>
             <!-- =========================================social links======================================= -->
             <ul class="social">
-                <li><a href="#"><i class="fab fa-facebook"></i> <span class="network-name">Facebook</span></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i> <span class="network-name">Facebook</span></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i> <span class="network-name">Twitter</span></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i> <span class="network-name">Instagram</span></a></li>
                 <li><a href="#"><i class="fab fa-pinterest"></i> <span class="network-name">Pinterest</span></a></li>
@@ -189,7 +186,6 @@
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>
