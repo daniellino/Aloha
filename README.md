@@ -14,14 +14,14 @@ Designing a responsive website for mobile and tablet and desktop sizes using mob
 
 ## Used techniques and technologies
 
-1.IDE: VS code version 1.22.2
-2.HTML 5
-3.CSS 3
-4.JavaScript
-5.JQuery
-6.flexbox
-7.flickity
-8.fontawsome
+* IDE: VS code version 1.22.2
+* HTML 5
+* CSS 3
+* JavaScript
+* JQuery
+* flexbox
+* flickity
+* fontawsome
 
 ## Built With
 
