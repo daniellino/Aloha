@@ -8,4 +8,5 @@ ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
 # Ignore npm packages
+desktop.ini
 node_modules/

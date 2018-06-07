@@ -428,7 +428,7 @@ a {
 /* email */
 
 .sign-up-form input[type="email"] {
-    width: 100%;
+    width: 75%;
     border-radius: 30px;
     padding: 1.2rem 1.75rem;
     border: none;
@@ -443,7 +443,7 @@ a {
 
 .sign-up-form input[type="submit"] {
     position: absolute;
-    right: 3px;
+    right: 76px;
     bottom: 3px;
     border-radius: 30px;
     padding: .9rem 2rem;
@@ -615,7 +615,7 @@ a {
         flex-direction: row;
         align-items: baseline;
         justify-content: space-between;
-        padding: 80px 60px 0px 60px;
+        padding: 80px 25px 0px 25px;
     }
     .social {
         display: flex;
@@ -682,5 +682,8 @@ a {
     }
     .product-categories a {
         font-size: 3rem;
+    }
+    .footer-container {
+        padding: 80px 150px 0px 150px;
     }
 }
