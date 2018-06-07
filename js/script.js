@@ -15,6 +15,7 @@ $(document).ready(function() {
 
         if (userEmail != "") {
             alert("Thank you for subscribing!")
+            document.forms[0].reset();
         } else {
             alert("Please provide a valid e-mail address.")
         }
