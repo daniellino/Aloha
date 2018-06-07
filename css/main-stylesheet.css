@@ -186,6 +186,7 @@ a {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .new-collection {
@@ -345,15 +346,6 @@ a {
     flex-flow: row wrap;
 }
 
-
-/* .item:first-child {
-        flex-basis: 50%;
-    }
-    
-    .item:last-child {
-        flex-basis: 100%;
-    } */
-
 .product-wrapper {
     text-align: center;
 }
@@ -503,14 +495,6 @@ a {
 .network-name {
     display: none;
 }
-
-
-/* .social {
-        display: flex;
-        margin: 20px;
-        align-content: center;
-        justify-content: center;
-    } */
 
 .social {
     display: flex;
