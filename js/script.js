@@ -6,13 +6,7 @@ $(document).ready(function() {
         contain: true,
         wrapAround: true,
         prevNextButtons: false,
-        // selectedAttraction: 0.2,
-        // friction: 1,
         dragThreshold: 10
-            // freeScroll: true
-            // groupCells: 1
-            // autoPlay: true
-            // rightToLeft: true
     });
 
     $('.sign-up-form').on('submit', function(evt) {
@@ -25,7 +19,6 @@ $(document).ready(function() {
             alert("Please provide a valid e-mail address.")
         }
     });
-
     // ==================================soft scroll from CSS Tricks by  CHRIS COYIER===================================
     // Select all links with hashes
     $('a[href*="#"]')
@@ -62,6 +55,4 @@ $(document).ready(function() {
                 }
             }
         });
-
-
 });
