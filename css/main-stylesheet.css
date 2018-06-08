@@ -535,6 +535,8 @@ a {
         flex-wrap: nowrap;
         padding-top: 0.5rem;
         padding-bottom: 5.5rem;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .main-menu-nav {
         padding-top: 45px;
