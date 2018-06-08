@@ -633,7 +633,7 @@ a {
         padding-bottom: 5.5rem;
         padding-top: 0.5rem;
         justify-content: space-around;
-        width: 106rem;
+        min-width: 96rem;
         margin-bottom: .5rem;
     }
     .shopping-basket {
