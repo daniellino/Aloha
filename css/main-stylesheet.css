@@ -89,7 +89,7 @@ h2,
 h3 {
     font-family: Playfair Display, serif;
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 h3,
@@ -325,15 +325,11 @@ a {
 .product-type {
     color: #969696;
     font-weight: 400;
-    font-size: .9rem;
+    font-size: 1rem;
     margin-bottom: .75rem;
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
     padding-top: 16px;
-}
-
-.product-type {
-    font-size: .75rem;
 }
 
 .product-categories img {
@@ -530,7 +526,6 @@ a {
 
 @media screen and (min-width: 600px) {
     .website-header {
-        /* background: rgb(141, 200, 248); */
         height: 0px;
         flex-wrap: nowrap;
         padding-top: 0.5rem;
