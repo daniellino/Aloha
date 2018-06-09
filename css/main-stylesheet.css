@@ -623,7 +623,6 @@ a {
 
 @media screen and (min-width: 1240px) {
     .website-header {
-        /* background: rgb(235, 247, 126); */
         height: 0px;
         flex-wrap: nowrap;
         padding-top: 0.5rem;
