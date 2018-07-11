@@ -407,7 +407,7 @@ a {
 /* =======================================Form==================================== */
 
 .sign-up-form {
-    max-width: 90%;
+    max-width: 345px;
     position: relative;
     margin: auto;
 }
@@ -416,7 +416,8 @@ a {
 /* email */
 
 .sign-up-form input[type="email"] {
-    width: 75%;
+    width: 100%;
+    max-width: 350px;
     border-radius: 30px;
     padding: 1.2rem 1.75rem;
     border: none;
@@ -431,7 +432,7 @@ a {
 
 .sign-up-form input[type="submit"] {
     position: absolute;
-    right: 76px;
+    right: 4px;
     bottom: 3px;
     border-radius: 30px;
     padding: .9rem 2rem;
