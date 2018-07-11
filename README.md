@@ -1,6 +1,6 @@
 # Project 1: Aloha Website
 
-## Aabout the project
+## About the project
 
 This is the first project at RED Academy.
 
